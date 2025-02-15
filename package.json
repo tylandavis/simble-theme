@@ -1,0 +1,22 @@
+{
+  "name": "simble-theme",
+  "displayName": "simble",
+  "publisher": "tylandavis",
+  "description": "Just another theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Simble",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Simble-color-theme.json"
+      }
+    ]
+  }
+}
